@@ -3,8 +3,8 @@ import sbt._
 
 object HelloBuild extends Build {
   lazy val resolverSeq = Seq(
-    "Artifactory-Snapshot" at "http://repo.in.zhihu.com/artifactory/libs-snapshot-local/",
-    "Artifactory-Release" at "http://repo.in.zhihu.com/artifactory/libs-release-local/",
+    "Artifactory-Snapshot" at "http://repo.in.xxx.com/artifactory/libs-snapshot-local/",
+    "Artifactory-Release" at "http://repo.in.xxx.com/artifactory/libs-release-local/",
     "Cloudera" at "https://repository.cloudera.com/artifactory/cloudera-repos"
   )
 
